@@ -1,0 +1,395 @@
+.bar {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.reset {
+  background-color: #cf60c8;
+  color: #ffffff;
+}
+.playAgain {
+  background-color: #cf60c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+.highLight {
+  color: #fec653;
+  text-decoration: underline;
+}
+.matching {
+  display: flex;
+  flex-wrap: wrap;
+}
+.unhighLight {
+  color: #ffffff;
+}
+.lists {
+  list-style-type: none;
+}
+.but {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.galga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tags {
+  color: #ffffff;
+}
+.game {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.games {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.score-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para-score {
+  color: #ffffff;
+  text-align: center;
+}
+.sec {
+  color: #fec653;
+}
+.end-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.end-card {
+  background-size: cover;
+}
+
+@media screen and (max-width: 575px) {
+  .he2 {
+    font-size: 15px;
+  }
+  .bar {
+    height: 10vh;
+  }
+  .logo {
+    height: 4vh;
+    width: 25vw;
+  }
+  .score-time {
+    margin-left: 20px;
+  }
+  .para-score {
+    font-size: 10px;
+  }
+
+  .timer-bt {
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 3vh;
+    width: 4vw;
+  }
+  .sec {
+    font-size: 10px;
+    padding-right: 15px;
+  }
+  .game {
+    height: 120vh;
+    padding-top: 20px;
+  }
+  .matchImg {
+    height: 40vh;
+    width: 80vw;
+  }
+  .lists {
+    margin: 0px;
+  }
+  .but {
+    font-size: 17px;
+  }
+  .matching {
+    width: 95vw;
+  }
+  .images {
+    margin-right: 15px;
+    height: 15vh;
+    width: 15vw;
+  }
+  .games {
+    height: 100vh;
+  }
+  .reset {
+    height: 3vh;
+    width: 5vw;
+  }
+  .playAgain {
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 7px;
+  }
+  .trophy {
+    height: 40vh;
+    width: 50vw;
+  }
+  .end-card {
+    height: 80vh;
+    width: 85vw;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .he2 {
+    font-size: 25px;
+  }
+  .bar {
+    height: 10vh;
+  }
+  .logo {
+    height: 4vh;
+    width: 25vw;
+  }
+  .score-time {
+    margin-left: 20px;
+  }
+  .para-score {
+    font-size: 20px;
+  }
+
+  .realScore {
+    font-size: 20px;
+  }
+  .timer-bt {
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 3vh;
+    width: 4vw;
+  }
+  .sec {
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  .game {
+    height: 120vh;
+    padding-top: 20px;
+  }
+  .matchImg {
+    height: 40vh;
+    width: 80vw;
+  }
+  .lists {
+    margin: 0px;
+  }
+  .but {
+    font-size: 17px;
+  }
+  .matching {
+    width: 95vw;
+  }
+  .images {
+    margin-right: 15px;
+    height: 15vh;
+    width: 15vw;
+  }
+  .games {
+    height: 100vh;
+  }
+  .reset {
+    height: 3vh;
+    width: 5vw;
+  }
+  .playAgain {
+    padding: 10px;
+    font-size: 25px;
+    width: 250px;
+    border-radius: 7px;
+  }
+  .trophy {
+    height: 40vh;
+    width: 50vw;
+  }
+  .end-card {
+    height: 80vh;
+    width: 85vw;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .he2 {
+    font-size: 40px;
+  }
+  .bar {
+    height: 10vh;
+  }
+  .logo {
+    height: 4vh;
+    width: 25vw;
+  }
+  .score-time {
+    margin-left: 20px;
+  }
+  .para-score {
+    font-size: 25px;
+  }
+
+  .realScore {
+    font-size: 25px;
+  }
+  .timer-bt {
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 3vh;
+    width: 4vw;
+  }
+  .sec {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+  .game {
+    height: 120vh;
+    padding-top: 20px;
+  }
+  .matchImg {
+    height: 40vh;
+    width: 80vw;
+  }
+  .lists {
+    margin: 0px;
+  }
+  .but {
+    font-size: 25px;
+  }
+  .matching {
+    width: 95vw;
+  }
+  .images {
+    margin-right: 15px;
+    height: 15vh;
+    width: 15vw;
+  }
+  .games {
+    height: 100vh;
+  }
+  .reset {
+    height: 3vh;
+    width: 5vw;
+  }
+  .playAgain {
+    padding: 10px;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 7px;
+  }
+  .trophy {
+    height: 40vh;
+    width: 50vw;
+  }
+  .end-card {
+    height: 80vh;
+    width: 85vw;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .he2 {
+    font-size: 30px;
+  }
+  .reset {
+    height: 4vh;
+    width: 5vw;
+  }
+  .playAgain {
+    padding: 10px;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .trophy {
+    height: 40vh;
+    width: 50vw;
+  }
+  .end-card {
+    height: 100vh;
+    width: 80vw;
+    padding-bottom: 50px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  }
+  .matchImg {
+    height: 40vh;
+    width: 75vw;
+  }
+  .matching {
+    width: 80vw;
+  }
+  .images {
+    margin-right: 15px;
+    height: 14vh;
+    width: 10vw;
+  }
+  .lists {
+    margin: 20px;
+  }
+  .but {
+    font-size: 35px;
+  }
+  .sec {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  .score-time {
+    margin-left: 60px;
+  }
+  .para-score {
+    font-size: 30px;
+  }
+  .realScore {
+    font-size: 35px;
+  }
+  .bar {
+    height: 10vh;
+  }
+  .timer-bt {
+    margin-right: 25px;
+    height: 5vh;
+    width: 4vw;
+  }
+  .logo {
+    height: 5vh;
+    width: 13vw;
+  }
+  .game {
+    height: 100vh;
+    padding-top: 50px;
+  }
+  .games {
+    height: 120vh;
+  }
+}
